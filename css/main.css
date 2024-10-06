@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #1e202b;
+    color: #bfc1c8;
+    font-family: sans-serif;
+}
+
+/* start of navbar */
+.navbar-brand{
+    color: #009ad8;
+}
+.nav-link{
+    padding: 5px 10px;
+}
+
+.nav-link:hover{
+    color: #009ad8;
+    border: 2px solid #009ad8;
+    border-radius: 15px;
+}
+.active{
+    color: #009ad8 !important;
+    border: 2px solid #009ad8;
+    border-radius: 15px;
+}
+/* end of navbar */
+/* start of main */
+.image img{
+    width: 100%;
+    position: relative;
+     left: 100px;
+     bottom: -10px;
+}
+.row .col-md-4{
+    border: solid 2px  #009ad8;
+
+}
+.find-location input , .subscribe input{
+    padding: 20px 50px 20px 20px;
+    
+}
+.find-location button , .subscribe button{
+    font-size: 18px;
+    color: #fff !important;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+}
+.day-date h6{
+    font-weight: 700;
+}
+.content{
+    position: absolute;
+    bottom: 50px;
+    /* top: 100px; */
+    left: 10px;
+}
+.content h3{
+    color: #009ad8;
+}
+.content h2{
+    font-size: 90px  ;
+    font-weight: 700;
+    line-height: 135px;
+    color: #009ad8;
+}
+.content h6{
+    color: #009ad8;
+    font-size: 20px;
+}
+.weahter-deatils div{
+    display: flex;
+    justify-content: space-between;
+    margin-right:10px ;
+}
+.fa-umbrella{
+    transform: rotate(45deg);
+}
+.weahter-deatils span{
+    color: #009ad8;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* end of main */
+/* start of footer */
+footer{
+    background-color: #262936;
+}
+.social-links a div{
+    width: 40px;
+    height: 40px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    transition: all .3s ;
+}
+.social-links .facebook:hover {
+    background-color: #006c97;
+    color: #fff;
+}
+.social-links .twitter:hover {
+    background-color: #009ad8;
+    color: #fff;
+}
+.social-links .google:hover {
+    background-color: #fa0404;
+    color: #fff;
+}
+.social-links .pinterst:hover {
+    background-color: #ff0606;
+    color: #fff;
+}
